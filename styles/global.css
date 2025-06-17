@@ -27,4 +27,9 @@
   --subtitle: 400 20px/120% var(--font-family-subtitle);
   --text-md: 400 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
 }

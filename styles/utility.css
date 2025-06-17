@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-3{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap-24{
+  gap: 24px;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+.center {
+  place-items: center;
+}
+
+.flex {
+  display: flex;
+}
