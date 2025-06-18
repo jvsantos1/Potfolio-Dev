@@ -62,3 +62,12 @@
     }
   }
 }
+
+#projects{
+  background-color: var(--gray-200);
+  
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+
+}
