@@ -63,7 +63,7 @@
   }
 }
 
-#projects{
+#projects {
   background-color: var(--gray-200);
   
   width: 100%;
@@ -111,4 +111,48 @@
       }
     }
   }
+}
+
+#services {
+  background-color: var(--gray-100);
+  
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+
+  padding-top: 88px;
+  padding-bottom: 120px;
+
+  h2 {
+    font: var(--subtitle);
+    color: var(--red);
+    padding-bottom: 8px;
+  }
+
+  h1 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    padding-bottom: 56px;
+  }
+
+  .service {
+    border-width: 2px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--gray-200);
+    padding: 20px;
+
+    h3 {
+      font: var(--title-sm);
+      color: var(--gray-600);
+      padding-top: 20px;
+      padding-bottom: 8px;
+    }
+
+    p {
+      font: var(--text-sm);
+      color: var(--gray-500);
+    }
+  }
+
 }
