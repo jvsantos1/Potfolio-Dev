@@ -70,4 +70,45 @@
   min-height: 400px;
   overflow: hidden;
 
+  padding-bottom: 144px;
+
+  h3 {
+    font: var(--subtitle);
+    color: var(--red);
+
+    padding-top: 72px;
+    padding-bottom: 8px;
+  }
+
+  h1{
+    font: var(--title-md);
+    color: var(--gray-600);
+    padding-bottom: 56px;
+  }
+
+  #destaques{
+    .box-project{
+      width: 330px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      img{
+        width: 303px;
+        margin: 13.5px;
+        border-radius: 8px;
+      }
+
+       h2 {
+        font: var(title-sm);
+        color: var(--gray-600);
+        margin-left: 13.5px;
+      }
+
+      p{
+        font: var(--text-sm);
+        color: var(--gray-500);
+        padding: 10px 13.5px 13.5px 13.5px;
+      }
+    }
+  }
 }
